@@ -1,0 +1,8 @@
+{
+  "version": "2.0.1",
+  "releaseDate": "2026-10-27",
+  "platform": "Windows 10/11 Native Qt6 Desktop (Portable EXE + Windows 11 Store MSIX)",
+  "exeUrl": "https://github.com/mosalah30688-gif/sirag-atlas-windows/releases/download/v2.0.1/Sirag-Atlas-Seerah-Portable-x64.exe",
+  "msixUrl": "https://github.com/mosalah30688-gif/sirag-atlas-windows/releases/download/v2.0.1/Sirag-Atlas-Seerah-Win11-Store-x64.msix",
+  "changelog": "الإصدار الرسمي لنظام ويندوز 10/11 بواجهة رسومية أصلية مستقلة Pure Native Qt 6 بدون أي متصفح: يضم نسخة Portable EXE محمولة تعمل فوراً بدون تثبيت، وحزمة متجر ويندوز 11 الرسمية MSIX، مع شريط عنوان ويندوز 11 الداكن والتحديث المباشر."
+}
