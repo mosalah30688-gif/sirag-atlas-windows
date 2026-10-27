@@ -1,8 +1,12 @@
 {
-  "version": "2.0.1",
+  "version": "2.0.2",
+  "updateType": "patch",
   "releaseDate": "2026-10-27",
-  "platform": "Windows 10/11 Native Qt6 Desktop (Portable EXE + Windows 11 Store MSIX)",
-  "exeUrl": "https://github.com/mosalah30688-gif/sirag-atlas-windows/releases/download/v2.0.1/Sirag-Atlas-Seerah-Portable-x64.exe",
-  "msixUrl": "https://github.com/mosalah30688-gif/sirag-atlas-windows/releases/download/v2.0.1/Sirag-Atlas-Seerah-Win11-Store-x64.msix",
-  "changelog": "الإصدار الرسمي لنظام ويندوز 10/11 بواجهة رسومية أصلية مستقلة Pure Native Qt 6 بدون أي متصفح: يضم نسخة Portable EXE محمولة تعمل فوراً بدون تثبيت، وحزمة متجر ويندوز 11 الرسمية MSIX، مع شريط عنوان ويندوز 11 الداكن والتحديث المباشر."
+  "appName": "سراج أطلس السيرة النبوية",
+  "developer": "محمد صلاح عبد الخالق",
+  "developerUrl": "https://elkatebmohamadsalah.blogspot.com/?m=1#google_vignette",
+  "updateManifestUrl": "https://raw.githubusercontent.com/mosalah30688-gif/sirag-atlas-windows/main/update.json",
+  "portableExeUrl": "https://github.com/mosalah30688-gif/sirag-atlas-windows/releases/latest/download/Sirag-Atlas-Seerah-Portable-x64.exe",
+  "msixUrl": "https://github.com/mosalah30688-gif/sirag-atlas-windows/releases/latest/download/Sirag-Atlas-Seerah-Win11-Store-x64.msix",
+  "changelog": "تحديث الواجهة v2.0.2: اختصار وتنقية العناوين والنصوص وإزالة العبارات التقنية الزائدة."
 }

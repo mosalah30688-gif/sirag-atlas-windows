@@ -45,7 +45,7 @@ class SiragMainWindow(QMainWindow):
         self.ui_font = ui_font
         self.serif_font = serif_font
 
-        self.setWindowTitle(f"{APP_NAME_AR} — الإصدار الأصلي المستقل لنظام ويندوز (v{APP_VERSION})")
+        self.setWindowTitle(f"{APP_NAME_AR} (v{APP_VERSION})")
         self.resize(1380, 880)
         self.setMinimumSize(780, 560)
         self.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
@@ -89,7 +89,7 @@ class SiragMainWindow(QMainWindow):
         brand_col.setSpacing(1)
         b_title = QLabel("سراج أطلس السيرة النبوية")
         b_title.setProperty("role", "title")
-        b_sub = QLabel("الأطلس الزماني-المكاني لسيرة خير الأنام ﷺ • واجهة سطح مكتب أصلية مستقلة")
+        b_sub = QLabel("الأطلس الزماني-المكاني لسيرة خير الأنام ﷺ")
         b_sub.setProperty("role", "subtitle")
         brand_col.addWidget(b_title)
         brand_col.addWidget(b_sub)

@@ -2,7 +2,6 @@ name: Build Windows Portable EXE & Windows 11 Store MSIX
 
 on:
   push:
-    branches: [main]
     tags: ['v*']
   workflow_dispatch:
 
@@ -43,23 +42,14 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
-          name: "سراج أطلس السيرة النبوية ${{ github.ref_name }} — نسخة ويندوز (Portable EXE + Windows 11 Store MSIX)"
+          name: "سراج أطلس السيرة النبوية ${{ github.ref_name }} — ويندوز"
           body: |
-            ## 🪟 سراج أطلس السيرة النبوية ﷺ — الإصدار الأصلي المستقل لنظام ويندوز 10 / 11 (${{ github.ref_name }})
+            ## 🪟 سراج أطلس السيرة النبوية ﷺ (${{ github.ref_name }})
             **عن المطور:** [محمد صلاح عبد الخالق](https://elkatebmohamadsalah.blogspot.com/?m=1#google_vignette)
 
-            ### 🖥️ واجهة سطح مكتب ويندوز أصلية مستقلة 100% (`Pure Native Qt 6 GUI`)
-            - **بدون Electron • بدون متصفح • بدون WebView!**
-            - متكاملة مع سمة شريط العنوان الداكن الأصلي في **Windows 11**، ومضمّن بداخلها الخطوط العربية الأصيلة (`Amiri` + `Readex Pro`) وجميع الخرائط والصوتيات أوفلاين بالكامل.
-
-            ---
-
-            ### 📦 النسختان الجاهزتان للتحميل الفوري:
-            1. ⚡ **`Sirag-Atlas-Seerah-Portable-x64.exe`** — **النسخة البورتابل المحمولة (ملف `.exe` واحد مستقل)**:
-               - تعمل فوراً بالضغط المزدوج (Double-Click) على أي جهاز Windows 10 أو Windows 11 بدون أي تثبيت إطلاقاً!
-            2. 🛍️ **`Sirag-Atlas-Seerah-Win11-Store-x64.msix`** — **حزمة متجر ويندوز 11 الرسمية (`MSIX`)**:
-               - مبنية بمعيار متجر مايكروسوفت الرسمي لـ Windows 11 (`makeappx` + `AppxManifest.xml` كامل الأصول البصرية لقائمة ابدأ ومتجر ويندوز 11).
-               - *(ملاحظة للتثبيت المحلي المباشر خارج المتجر: إذا أردت تثبيت ملف `.msix` يدوياً خارج Microsoft Store، افتح ملف الشهادة المرفق `Sirag-Atlas-Win11-Store.cer` واختر `Install Certificate -> Local Machine -> Trusted Root Certification Authorities` ثم اضغط دبل-كليك على ملف الـ `.msix` ليثبت عبر مثبّت متجر ويندوز 11 مباشرة).*
+            ### 📦 النسختان الجاهزتان للتحميل:
+            1. ⚡ **`Sirag-Atlas-Seerah-Portable-x64.exe`** — نسخة محمولة تعمل مباشرة بدون تثبيت.
+            2. 🛍️ **`Sirag-Atlas-Seerah-Win11-Store-x64.msix`** — حزمة متجر ويندوز 11 (`MSIX`).
           files: |
             dist/Sirag-Atlas-Seerah-Portable-x64.exe
             dist/Sirag-Atlas-Seerah-Win11-Store-x64.msix

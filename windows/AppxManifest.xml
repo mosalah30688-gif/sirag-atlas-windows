@@ -15,7 +15,7 @@
     <DisplayName>سراج أطلس السيرة النبوية</DisplayName>
     <PublisherDisplayName>محمد صلاح عبد الخالق</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
-    <Description>الأطلس الزماني-المكاني التفاعلي لسيرة خير الأنام ﷺ — واجهة رسومية أصلية مستقلة تعمل بالكامل بدون إنترنت.</Description>
+    <Description>الأطلس الزماني-المكاني التفاعلي لسيرة خير الأنام ﷺ.</Description>
   </Properties>
 
   <Dependencies>
